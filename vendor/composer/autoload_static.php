@@ -6,26 +6,15 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit37142a6543854dd3020e9a0ffd717d19
 {
-    public static $files = array (
-        '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-    );
-
     public static $prefixLengthsPsr4 = array (
         'U' => 
         array (
             'Uf2\\Joseportugal\\' => 17,
         ),
-        'P' => 
-        array (
-            'Psr\\Http\\Message\\' => 17,
-        ),
         'I' => 
         array (
             'Intervention\\Image\\' => 19,
-        ),
-        'G' => 
-        array (
-            'GuzzleHttp\\Psr7\\' => 16,
+            'Intervention\\Gif\\' => 17,
         ),
     );
 
@@ -34,18 +23,13 @@ class ComposerStaticInit37142a6543854dd3020e9a0ffd717d19
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
-        'Psr\\Http\\Message\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
-        ),
         'Intervention\\Image\\' => 
         array (
-            0 => __DIR__ . '/..' . '/intervention/image/src/Intervention/Image',
+            0 => __DIR__ . '/..' . '/intervention/image/src',
         ),
-        'GuzzleHttp\\Psr7\\' => 
+        'Intervention\\Gif\\' => 
         array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+            0 => __DIR__ . '/..' . '/intervention/gif/src',
         ),
     );
 

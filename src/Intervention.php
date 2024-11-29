@@ -1,7 +1,7 @@
 <?php
 require_once '../vendor/autoload.php';
 error_reporting(ENT_IGNORE);
-//print_r($_FILES["imageFile"]);
+print_r($_FILES["imageFile"]);
 
 // create object ImageManager
 $managerImage = new \Intervention\Image\ImageManager();
